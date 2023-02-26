@@ -175,7 +175,7 @@ function AnahtardanDegerlendirmeAl(array, index) {
 	let isim = filtered.isim
 	let puan = filtered.puan
 	let geribildirim = filtered.geribildirim
-	console.log( {isim} , "isimli kişi" , {puan} , "puan verdi ve şunları yazdı:" , {geribildirim})
+	console.log(` ${isim}  isimli kişi ${puan}  puan verdi ve şunları yazdı: ${geribildirim}`)
 }
 
 AnahtardanDegerlendirmeAl(degerlendirmeler,0)
