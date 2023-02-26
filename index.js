@@ -155,11 +155,11 @@ function DegerledirmeEkle(
   };
 
   eklenecekArray.push(yeniDegerlendirme)
-
-
 }
-DegerledirmeEkle(degerlendirmeler, 'Hurşut', 2, 'Boktan yemekler!')
- console.log(degerlendirmeler)
+
+// DegerledirmeEkle(degerlendirmeler, 'Hurşut', 2, 'Boktan yemekler!')
+//  console.log(degerlendirmeler) 
+ 
 /*  Görev 6: 
 	Dizideki değerlendirmelerin anahtarına(key,index) bağlı olarak bir değerlendirme döndüren bir fonksiyon yazın
 	
@@ -193,9 +193,12 @@ AnahtardanDegerlendirmeAl(degerlendirmeler,0)
 	Not: Eğer 4. görevi başarıyla yaptıysanız kişinin geribildirimi boş görünmemeli
 */
 
-function SonDegerlendirmeyiAl(/*Kodlar buraya*/) {
-  /*Kodlar buraya*/
+function SonDegerlendirmeyiAl(dizi) { 
+  AnahtardanDegerlendirmeAl(dizi , dizi.length -1)
 }
+
+SonDegerlendirmeyiAl(degerlendirmeler)
+
 
 /////////////// BONUS  GÖRVLER////////////////////
 
